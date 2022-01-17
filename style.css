@@ -1,0 +1,44 @@
+#slide-container{
+	width: 600px;
+	overflow: hidden;
+	direction: center;
+}
+#image-container{
+	position: relative;
+	width: 2400px;
+	animation-name: animate;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+#image-container img{
+	float: left;
+}
+@keyframes animate{
+	0%{
+		left: 0px;
+	}
+	20%{
+		left: 0px;
+	}
+	25%{
+		left: -600px;
+	}
+	45%{
+		left:-600px; 
+	}
+	50%{
+		left: -1200px;
+	}
+	70%{
+		left: -1200px;
+	}
+	75%{
+		left: -1800px;
+	}
+	95%{
+		left: -1800px;
+	}
+	100%{
+		left:-2400px;
+	}
+}
